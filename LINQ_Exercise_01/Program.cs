@@ -1,7 +1,8 @@
 ﻿using LINQ_Exercise_01.Models;
 
 #region GroupBy()
-// TODO: Given a list of students, group the students by grade.
+
+// TODO: Given a list of students, group the students by grade and creatively display to the console.
 var students = new List<Student>()
 {
     new Student(){ Grade = 'F',Age = 20, Name = "Tim Parson"},
@@ -18,7 +19,7 @@ var students = new List<Student>()
 
 };
 
-// TODO: Given a list of books, group the books by author.
+// TODO: Given a list of books, group the books by author and creatively display to the console.
 var books = new List<Book>()
 {
     new Book() {Title = "Nineteen Eighty-Four", Author = "George Orwell", YearPublished = 1949},
@@ -35,7 +36,7 @@ var books = new List<Book>()
 
 };
 
-// TODO: Given a list of bank transactions, group the transactions by month.
+// TODO: Given a list of bank transactions, group the transactions by month and creatively display to the console.
 var transactions = new List<Transaction>()
 {
     new Transaction() {Amount = 19.99M, TransactionDate = new DateTime(2000, 12, 31)},
@@ -51,7 +52,7 @@ var transactions = new List<Transaction>()
     new Transaction() {Amount = 49.99M, TransactionDate = new DateTime(2006, 10, 7)}
 };
 
-// TODO: Given a list of orders, group the orders by their status.
+// TODO: Given a list of orders, group the orders by their status and creatively display to the console.
 var orders = new List<Order>()
 {
     new Order() {OrderID = 103, CustomerID = 100831, Status = "Pending"},
@@ -65,10 +66,12 @@ var orders = new List<Order>()
     new Order() {OrderID = 138, CustomerID = 100931, Status = "Pending"},
     new Order() {OrderID = 186, CustomerID = 100871, Status = "Completed"},
 };
+
 #endregion
 
 #region Select()
-// TODO: Given a list of strings, use Select to create a new list where all strings are in uppercase.
+
+// TODO: Given a list of strings, use Select to create a new list where all strings are in uppercase and creatively display to the console.
 var strings = new List<string>()
 {
     "aaa",
@@ -82,7 +85,7 @@ var strings = new List<string>()
 };
 
 // TODO: Given a list of students, each with Name, Age, and Grade properties,
-//       use Select to create a new list containing only the Name and Grade properties.
+//       use Select to create a new list containing only the Name and Grade properties and creatively display to the console.
 var students2 = new List<Student>()
 {
     new Student(){ Grade = 'C',Age = 33, Name = "Amos Crist"},
@@ -98,6 +101,16 @@ var students2 = new List<Student>()
     new Student(){ Grade = 'C',Age = 26, Name = "Cristina Parisian"},
 };
 
-
+// TODO: Given a list of strings, use Select to create a new list of coordinates and creatively display to the console.
+var stringCoordinates = new List<string>()
+{
+    "10,2",
+    "0,-1",
+    "10,10",
+    "1,0",
+    "0,0",
+    "-2, -4",
+    "3, -6"
+};
 
 #endregion
