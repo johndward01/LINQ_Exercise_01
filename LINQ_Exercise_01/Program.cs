@@ -71,7 +71,22 @@ var orders = new List<Order>()
 
 #region Select()
 
-// TODO: Given a list of strings, use Select to create a new list where all strings are in uppercase and creatively display to the console.
+// TODO: Given a list of integers, create a new list squaring each number and creatively display to the console.
+var numbers = new List<int>()
+{
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+};
+
+// TODO: Given a list of strings, use Select() to create a new list where all strings are in uppercase and creatively display to the console.
 var strings = new List<string>()
 {
     "aaa",
@@ -85,7 +100,7 @@ var strings = new List<string>()
 };
 
 // TODO: Given a list of students, each with Name, Age, and Grade properties,
-//       use Select to create a new list containing only the Name and Grade properties and creatively display to the console.
+//       create a new list containing only the Name and Grade properties and creatively display to the console.
 var students2 = new List<Student>()
 {
     new Student(){ Grade = 'C',Age = 33, Name = "Amos Crist"},
@@ -101,7 +116,7 @@ var students2 = new List<Student>()
     new Student(){ Grade = 'C',Age = 26, Name = "Cristina Parisian"},
 };
 
-// TODO: Given a list of strings, use Select to create a new list of coordinates and creatively display to the console.
+// TODO: Given a list of strings, create a new list of coordinates and creatively display to the console.
 var stringCoordinates = new List<string>()
 {
     "10,2",
